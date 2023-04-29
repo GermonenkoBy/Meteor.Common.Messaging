@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Slava Germonenko</Authors>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/GermonenkoBy/Meteor.Common.Messaging</RepositoryUrl>
+        <PackageId>Meteor.Common.Messaging.Abstractions</PackageId>
+    </PropertyGroup>
+
+</Project>
