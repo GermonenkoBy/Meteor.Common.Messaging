@@ -13,5 +13,5 @@ dotnet pack -c Release -o "./pack"
 ```
 2. Push packages
 ```shell
-dotnet nuget push "pack\*.nupkg" -s githib
+dotnet nuget push -s github "pack\*.nupkg"
 ```

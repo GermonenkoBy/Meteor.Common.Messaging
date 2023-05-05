@@ -34,7 +34,7 @@ public class AzureServiceBusPublisher<TMessage> : IPublisher<TMessage>, IAsyncDi
         DateTimeOffset? scheduleTime = null
     )
     {
-        var bodyBytes = JsonSerializer.SerializeToUtf8Bytes(body);
+        var bodyBytes = JsonSerializer.SerializeToUtf8Bytes(body, _options.SerializerOptions);
         var message = new ServiceBusMessage(bodyBytes);
 
         if (messageId is not null)
